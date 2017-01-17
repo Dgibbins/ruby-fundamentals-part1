@@ -27,3 +27,5 @@ end
 puts grocery_list.sort
 
 grocery_list.delete("salmon")
+
+students_expand= students.each {|k,v| v*1.05}
